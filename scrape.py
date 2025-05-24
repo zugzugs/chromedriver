@@ -33,3 +33,5 @@ def get_materials_data(url):
         
     finally:
         driver.quit()
+
+get_materials_data("https://www.hltv.org/matches/2382692/falcons-vs-gamerlegion-iem-dallas-2025")
